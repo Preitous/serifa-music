@@ -1,0 +1,71 @@
+# ============================================================
+# DIMENSÕES E APARÊNCIA DOS COMPONENTES
+# ============================================================
+# Todas as dimensões são expressas em pixels.
+# Altere os valores numéricos para personalizar a interface.
+
+[sidebar]
+width = 240
+margin_left = 20
+margin_top = 24
+margin_right = 20
+margin_bottom = 20
+button_height = 42
+button_spacing = 12
+
+[cards]
+padding = 10
+spacing = 10
+
+[album_card]
+width = 213
+cover_size = 193
+corner_radius = 12
+
+[artist_card]
+width = 180
+cover_size = 152
+title_height = 40
+corner_radius = 12
+
+[track_row]
+height = 66
+cover_size = 40
+margin_horizontal = 10
+margin_vertical = 8
+spacing = 11
+text_spacing_library = 1
+text_spacing_standard = 3
+metadata_spacing = 7
+favorite_button_size = 30
+corner_radius = 8
+
+[player]
+height = 90
+cover_size = 52
+control_width = 32
+control_height = 30
+favorite_size = 30
+fullscreen_button_size = 32
+margin_horizontal = 24
+margin_vertical = 10
+
+[search]
+panel_width = 700
+maximum_height = 640
+input_height = 54
+
+[fullscreen]
+minimum_width = 640
+minimum_height = 480
+cover_size = 480
+
+[queue]
+panel_width = 360
+button_size = 34
+
+[corners]
+small = 5
+medium = 8
+large = 12
+round = 999

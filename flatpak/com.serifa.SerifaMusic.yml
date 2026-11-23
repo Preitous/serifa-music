@@ -1,0 +1,40 @@
+app-id: com.serifa.SerifaMusic
+runtime: org.kde.Platform
+runtime-version: '6.11'
+sdk: org.kde.Sdk
+base: io.qt.PySide.BaseApp
+base-version: '6.11'
+
+command: serifamusic
+
+finish-args:
+  - --share=ipc
+  - --socket=fallback-x11
+  - --socket=wayland
+  - --device=dri
+  - --socket=pulseaudio
+  - --own-name=org.mpris.MediaPlayer2.serifamusic
+  - --system-talk-name=org.freedesktop.UDisks2
+  - --filesystem=/media:ro
+  - --filesystem=/run/media:ro
+
+modules:
+  - build-dependencies.json
+  - pypi-dependencies.json
+
+  - name: serifamusic
+    buildsystem: simple
+    build-commands:
+      - install -d /app/share/serifamusic
+      - cp -a app customization /app/share/serifamusic/
+      - find /app/share/serifamusic/app -type f \( -name '*.bak*' -o -name '*.pre_*' \) -delete
+      - install -Dm755 serifamusic.sh /app/bin/serifamusic
+      - install -Dm644 serifamusic.desktop /app/share/applications/com.serifa.SerifaMusic.desktop
+      - install -Dm644 customization/logos/logo_square.svg /app/share/icons/hicolor/scalable/apps/com.serifa.SerifaMusic.svg
+    sources:
+      - type: dir
+        path: source
+      - type: file
+        path: serifamusic.sh
+      - type: file
+        path: serifamusic.desktop

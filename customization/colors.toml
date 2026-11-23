@@ -1,0 +1,187 @@
+# ============================================================
+# PALETA DE CORES — SERIFA MUSIC
+# ============================================================
+# Edite os valores HEX para personalizar o aplicativo.
+# Formatos aceitos: #RRGGBB e #AARRGGBB.
+#
+# DICA:
+# Altere uma cor por vez e mantenha uma cópia dos valores
+# originais para poder retornar à aparência padrão.
+#
+# Estas cores são tokens de tema. Cores extraídas de capas
+# de álbuns e imagens continuam sendo geradas dinamicamente.
+
+[fundo]
+principal = "#17151e"             # Fundo geral da janela
+lateral = "#211e2a"               # Barra lateral
+superficie = "#1b1823"            # Fundo de áreas e cartões
+superficie_elevada = "#302a3b"    # Painéis e elementos elevados
+sombra = "#100e15"                # Sombras profundas
+
+[texto]
+principal = "#f3edf9"             # Texto principal
+secundario = "#bdb3c9"            # Texto secundário
+discreto = "#95899f"              # Legendas e informações discretas
+desabilitado = "#81798b"          # Texto de controles desabilitados
+branco = "#ffffff"                # Branco puro
+lavanda = "#e9d5ff"               # Texto com destaque suave
+lavanda_clara = "#f2eafa"         # Variação clara de texto
+lavanda_alternativa = "#f2edf7"   # Variação alternativa de texto
+texto_apoio = "#a49bad"           # Textos auxiliares
+
+[destaque]
+primario = "#72558d"              # Roxo principal do tema
+secundario = "#d9b6ff"            # Roxo claro para destaques
+hover = "#493e58"                 # Fundo de destaque ao passar o mouse
+roxo_botoes = "#49375f"           # Roxo usado em botões e seleções
+roxo_medio = "#59496b"            # Roxo intermediário
+roxo_claro = "#c9a7ef"            # Roxo claro para ícones e textos
+roxo_suave = "#b58ae0"             # Roxo suave de detalhes
+
+[verde]
+ativo = "#b6f23a"                 # Verde principal de ações ativas
+hover = "#c8ff4a"                 # Verde claro ao passar o mouse
+alternativo = "#a2d92a"           # Verde alternativo de componentes
+
+[borda]
+discreta = "#393243"              # Bordas discretas
+forte = "#493e58"                 # Bordas mais visíveis
+roxa = "#59496b"                  # Bordas com tom roxo
+controle = "#51495c"               # Bordas e trilhos de controles
+
+[estado]
+favorito = "#d9b6ff"              # Cor de favoritos
+sucesso = "#76c9b9"               # Estado positivo
+aviso = "#ea6846"                 # Avisos e alertas
+erro = "#ea6846"                  # Erros e estados críticos
+
+[qt]
+janela = "#17151e"                # Fundo da janela Qt
+texto_janela = "#f3edf9"          # Texto padrão da janela
+base = "#1b1823"                  # Fundo de campos e áreas de edição
+base_alternada = "#211e2a"        # Fundo alternado
+tooltip_background = "#211e2a"   # Fundo das dicas de ferramentas
+tooltip_border = "#ffffff"       # Contorno das dicas de ferramentas
+tooltip_text = "#ffffff"         # Texto das dicas de ferramentas
+texto = "#f3edf9"                 # Texto padrão dos controles
+botao = "#302a3b"                 # Fundo padrão de botões
+texto_botao = "#e9d5ff"           # Texto padrão de botões
+texto_brilhante = "#ffffff"       # Texto de alto contraste
+selecao = "#72558d"               # Seleção padrão
+texto_selecao = "#ffffff"         # Texto sobre seleção
+luz = "#493e58"                   # Tom claro da paleta Qt
+meio_claro = "#393243"            # Tom intermediário claro
+meio = "#302a3b"                  # Tom intermediário
+escuro = "#17151e"                # Tom escuro
+sombra = "#100e15"                # Sombra da paleta Qt
+texto_espaco_reservado = "#95899f" # Texto de placeholder
+texto_desabilitado = "#81798b"    # Texto desabilitado
+selecao_desabilitada = "#493e58"  # Fundo de seleção desabilitada
+texto_selecao_desabilitada = "#aaa3b6" # Texto de seleção desabilitada
+
+[auxiliar]
+lavanda_escura = "#c8bfd2"        # Detalhes claros auxiliares
+roxo_controle = "#ad83d5"         # Detalhes de controles e sliders
+roxo_controle_claro = "#e4d0f5"   # Alças e indicadores de controles
+cinza_controle = "#51495c"        # Trilhos de controles
+
+
+[componentes]
+fundo_intermediario = "#25212e"
+fundo_alternativo = "#272330"
+fundo_cartao = "#292433"
+fundo_cartao_alternativo = "#292532"
+fundo_painel = "#2b2735"
+roxo_selecao = "#493243"
+roxo_hover = "#3b3049"
+roxo_pressed = "#40354f"
+roxo_borda = "#51445f"
+roxo_borda_claro = "#71617f"
+roxo_escuro = "#66547f"
+cinza_texto = "#665b70"
+cinza_claro = "#77717f"
+roxo_muito_claro = "#c9bdd5"
+rosa_alerta = "#e58b91"
+
+
+[tons]
+hex_17141e = "#17141e"
+hex_17151e = "#17151e"
+hex_211d2b = "#211d2b"
+hex_211e2a = "#211e2a"
+hex_1b1823 = "#1b1823"
+hex_25212e = "#25212e"
+hex_272330 = "#272330"
+hex_292433 = "#292433"
+hex_292532 = "#292532"
+hex_2b2735 = "#2b2735"
+hex_302a3b = "#302a3b"
+hex_332b40 = "#332b40"
+hex_342b43 = "#342b43"
+hex_393243 = "#393243"
+hex_3b3049 = "#3b3049"
+hex_40354f = "#40354f"
+hex_493243 = "#493243"
+hex_49375f = "#49375f"
+hex_49395b = "#49395b"
+hex_493e58 = "#493e58"
+hex_51445f = "#51445f"
+hex_51495c = "#51495c"
+hex_59466f = "#59466f"
+hex_594675 = "#594675"
+hex_59496b = "#59496b"
+hex_66547f = "#66547f"
+hex_665b70 = "#665b70"
+hex_713c49 = "#713c49"
+hex_71617f = "#71617f"
+hex_76539a = "#76539a"
+hex_76599a = "#76599a"
+hex_77717f = "#77717f"
+hex_8056a4 = "#8056a4"
+hex_80649e = "#80649e"
+hex_81798b = "#81798b"
+hex_8657a8 = "#8657a8"
+hex_8964ad = "#8964ad"
+hex_898297 = "#898297"
+hex_93899d = "#93899d"
+hex_95899f = "#95899f"
+hex_956bb8 = "#956bb8"
+hex_9871bd = "#9871bd"
+hex_98d51f = "#98d51f"
+hex_a2d92a = "#a2d92a"
+hex_a49bad = "#a49bad"
+hex_a6e02e = "#a6e02e"
+hex_a99bb8 = "#a99bb8"
+hex_aaa3b6 = "#aaa3b6"
+hex_aaa4b5 = "#aaa4b5"
+hex_ad83d5 = "#ad83d5"
+hex_b58ae0 = "#b58ae0"
+hex_b6f23a = "#b6f23a"
+hex_b7b1bd = "#b7b1bd"
+hex_b99add = "#b99add"
+hex_bdb3c9 = "#bdb3c9"
+hex_c5f75c = "#c5f75c"
+hex_c6bdcf = "#c6bdcf"
+hex_c8bfd2 = "#c8bfd2"
+hex_c8ff4a = "#c8ff4a"
+hex_c9a7ef = "#c9a7ef"
+hex_c9bdd5 = "#c9bdd5"
+hex_d7b9f5 = "#d7b9f5"
+hex_d8c3f4 = "#d8c3f4"
+hex_d8cfe2 = "#d8cfe2"
+hex_d9b6ff = "#d9b6ff"
+hex_e4d0f5 = "#e4d0f5"
+hex_e58b91 = "#e58b91"
+hex_e9d5ff = "#e9d5ff"
+hex_e9dcf7 = "#e9dcf7"
+hex_eee5fa = "#eee5fa"
+hex_eee8f6 = "#eee8f6"
+hex_eeeaf3 = "#eeeaf3"
+hex_f0dfff = "#f0dfff"
+hex_f2eafa = "#f2eafa"
+hex_f2edf7 = "#f2edf7"
+hex_f3edf9 = "#f3edf9"
+hex_f5efff = "#f5efff"
+hex_ffffff = "#ffffff"
+
+hex_a99bbd = "#a99bbd"

@@ -1,0 +1,938 @@
+{
+    "_comment": "Mapeamento dos ícones. Os caminhos são relativos à pasta customization/icons. null significa que ainda não existe uma imagem para aquele estado.",
+    "version": 2,
+    "default_format": "svg",
+    "icons": {
+        "navigation.home": {
+            "category": "navigation",
+            "states": {
+                "normal": {
+                    "file": "navigation/home_normal.svg",
+                    "fallback": "⌂"
+                },
+                "hover": {
+                    "file": "navigation/home_hover.svg",
+                    "fallback": "⌂"
+                },
+                "active": {
+                    "file": "navigation/home_active.svg",
+                    "fallback": "⌂"
+                },
+                "pressed": {
+                    "file": "navigation/home_pressed.svg",
+                    "fallback": "⌂"
+                },
+                "disabled": {
+                    "file": "navigation/home_disabled.svg",
+                    "fallback": "⌂"
+                }
+            },
+            "scale": 0.85
+        },
+        "navigation.favorites": {
+            "category": "navigation",
+            "states": {
+                "normal": {
+                    "file": "navigation/favorites_normal.svg",
+                    "fallback": "♥"
+                },
+                "hover": {
+                    "file": "navigation/favorites_hover.svg",
+                    "fallback": "♥"
+                },
+                "active": {
+                    "file": "navigation/favorites_active.svg",
+                    "fallback": "♥"
+                },
+                "pressed": {
+                    "file": "navigation/favorites_pressed.svg",
+                    "fallback": "♥"
+                },
+                "disabled": {
+                    "file": "navigation/favorites_disabled.svg",
+                    "fallback": "♥"
+                }
+            },
+            "scale": 0.85
+        },
+        "navigation.playlists": {
+            "category": "navigation",
+            "states": {
+                "normal": {
+                    "file": "navigation/playlists_normal.svg",
+                    "fallback": "▤"
+                },
+                "hover": {
+                    "file": "navigation/playlists_hover.svg",
+                    "fallback": "▤"
+                },
+                "active": {
+                    "file": "navigation/playlists_active.svg",
+                    "fallback": "▤"
+                },
+                "pressed": {
+                    "file": "navigation/playlists_pressed.svg",
+                    "fallback": "▤"
+                },
+                "disabled": {
+                    "file": "navigation/playlists_disabled.svg",
+                    "fallback": "▤"
+                }
+            },
+            "scale": 0.85
+        },
+        "navigation.library": {
+            "category": "navigation",
+            "states": {
+                "normal": {
+                    "file": "navigation/library_normal.svg",
+                    "fallback": "♫"
+                },
+                "hover": {
+                    "file": "navigation/library_hover.svg",
+                    "fallback": "♫"
+                },
+                "active": {
+                    "file": "navigation/library_active.svg",
+                    "fallback": "♫"
+                },
+                "pressed": {
+                    "file": "navigation/library_pressed.svg",
+                    "fallback": "♫"
+                },
+                "disabled": {
+                    "file": "navigation/library_disabled.svg",
+                    "fallback": "♫"
+                }
+            },
+            "scale": 0.85
+        },
+        "navigation.artists": {
+            "category": "navigation",
+            "states": {
+                "normal": {
+                    "file": "navigation/artists_normal.svg",
+                    "fallback": "♙"
+                },
+                "hover": {
+                    "file": "navigation/artists_hover.svg",
+                    "fallback": "♙"
+                },
+                "active": {
+                    "file": "navigation/artists_active.svg",
+                    "fallback": "♙"
+                },
+                "pressed": {
+                    "file": "navigation/artists_pressed.svg",
+                    "fallback": "♙"
+                },
+                "disabled": {
+                    "file": "navigation/artists_disabled.svg",
+                    "fallback": "♙"
+                }
+            },
+            "scale": 0.85
+        },
+        "navigation.albums": {
+            "category": "navigation",
+            "states": {
+                "normal": {
+                    "file": "navigation/albums_normal.svg",
+                    "fallback": "▣"
+                },
+                "hover": {
+                    "file": "navigation/albums_hover.svg",
+                    "fallback": "▣"
+                },
+                "active": {
+                    "file": "navigation/albums_active.svg",
+                    "fallback": "▣"
+                },
+                "pressed": {
+                    "file": "navigation/albums_pressed.svg",
+                    "fallback": "▣"
+                },
+                "disabled": {
+                    "file": "navigation/albums_disabled.svg",
+                    "fallback": "▣"
+                }
+            },
+            "scale": 0.85
+        },
+        "navigation.import": {
+            "category": "navigation",
+            "states": {
+                "normal": {
+                    "file": "navigation/import_normal.svg",
+                    "fallback": "⇧"
+                },
+                "hover": {
+                    "file": "navigation/import_hover.svg",
+                    "fallback": "⇧"
+                },
+                "active": {
+                    "file": "navigation/import_active.svg",
+                    "fallback": "⇧"
+                },
+                "pressed": {
+                    "file": "navigation/import_pressed.svg",
+                    "fallback": "⇧"
+                },
+                "disabled": {
+                    "file": "navigation/import_disabled.svg",
+                    "fallback": "⇧"
+                }
+            },
+            "scale": 0.85
+        },
+        "navigation.settings": {
+            "category": "navigation",
+            "states": {
+                "normal": {
+                    "file": "navigation/settings_normal.svg",
+                    "fallback": "⚙"
+                },
+                "hover": {
+                    "file": "navigation/settings_hover.svg",
+                    "fallback": "⚙"
+                },
+                "active": {
+                    "file": "navigation/settings_active.svg",
+                    "fallback": "⚙"
+                },
+                "pressed": {
+                    "file": "navigation/settings_pressed.svg",
+                    "fallback": "⚙"
+                },
+                "disabled": {
+                    "file": "navigation/settings_disabled.svg",
+                    "fallback": "⚙"
+                }
+            },
+            "scale": 0.85
+        },
+        "player.play": {
+            "category": "player",
+            "states": {
+                "normal": {
+                    "file": "player/play_normal.svg",
+                    "fallback": "▶"
+                },
+                "hover": {
+                    "file": "player/play_hover.svg",
+                    "fallback": "▶"
+                },
+                "active": {
+                    "file": "player/play_active.svg",
+                    "fallback": "▶"
+                },
+                "pressed": {
+                    "file": "player/play_pressed.svg",
+                    "fallback": "▶"
+                },
+                "disabled": {
+                    "file": "player/play_disabled.svg",
+                    "fallback": "▶"
+                }
+            },
+            "scale": 1.0
+        },
+        "player.pause": {
+            "category": "player",
+            "states": {
+                "normal": {
+                    "file": "player/pause_normal.svg",
+                    "fallback": "Ⅱ"
+                },
+                "hover": {
+                    "file": "player/pause_hover.svg",
+                    "fallback": "Ⅱ"
+                },
+                "active": {
+                    "file": "player/pause_active.svg",
+                    "fallback": "Ⅱ"
+                },
+                "pressed": {
+                    "file": "player/pause_pressed.svg",
+                    "fallback": "Ⅱ"
+                },
+                "disabled": {
+                    "file": "player/pause_disabled.svg",
+                    "fallback": "Ⅱ"
+                }
+            },
+            "scale": 1.0
+        },
+        "player.previous": {
+            "category": "player",
+            "states": {
+                "normal": {
+                    "file": "player/previous_normal.svg",
+                    "fallback": "◀"
+                },
+                "hover": {
+                    "file": "player/previous_hover.svg",
+                    "fallback": "◀"
+                },
+                "active": {
+                    "file": "player/previous_active.svg",
+                    "fallback": "◀"
+                },
+                "pressed": {
+                    "file": "player/previous_pressed.svg",
+                    "fallback": "◀"
+                },
+                "disabled": {
+                    "file": "player/previous_disabled.svg",
+                    "fallback": "◀"
+                }
+            },
+            "scale": 0.85
+        },
+        "player.next": {
+            "category": "player",
+            "states": {
+                "normal": {
+                    "file": "player/next_normal.svg",
+                    "fallback": "▶|"
+                },
+                "hover": {
+                    "file": "player/next_hover.svg",
+                    "fallback": "▶|"
+                },
+                "active": {
+                    "file": "player/next_active.svg",
+                    "fallback": "▶|"
+                },
+                "pressed": {
+                    "file": "player/next_pressed.svg",
+                    "fallback": "▶|"
+                },
+                "disabled": {
+                    "file": "player/next_disabled.svg",
+                    "fallback": "▶|"
+                }
+            },
+            "scale": 0.85
+        },
+        "player.shuffle": {
+            "category": "player",
+            "states": {
+                "normal": {
+                    "file": "player/shuffle_normal.svg",
+                    "fallback": "⇄"
+                },
+                "hover": {
+                    "file": "player/shuffle_hover.svg",
+                    "fallback": "⇄"
+                },
+                "active": {
+                    "file": "player/shuffle_active.svg",
+                    "fallback": "⇄"
+                },
+                "pressed": {
+                    "file": "player/shuffle_pressed.svg",
+                    "fallback": "⇄"
+                },
+                "disabled": {
+                    "file": "player/shuffle_disabled.svg",
+                    "fallback": "⇄"
+                }
+            },
+            "scale": 0.85
+        },
+        "player.repeat": {
+            "category": "player",
+            "states": {
+                "normal": {
+                    "file": "player/repeat_normal.svg",
+                    "fallback": "↻"
+                },
+                "hover": {
+                    "file": "player/repeat_hover.svg",
+                    "fallback": "↻"
+                },
+                "active": {
+                    "file": "player/repeat_active.svg",
+                    "fallback": "↻"
+                },
+                "pressed": {
+                    "file": "player/repeat_pressed.svg",
+                    "fallback": "↻"
+                },
+                "disabled": {
+                    "file": "player/repeat_disabled.svg",
+                    "fallback": "↻"
+                }
+            },
+            "scale": 0.85
+        },
+        "player.infinity": {
+            "category": "player",
+            "states": {
+                "normal": {
+                    "file": "player/infinity_normal.svg",
+                    "fallback": "∞"
+                },
+                "hover": {
+                    "file": "player/infinity_hover.svg",
+                    "fallback": "∞"
+                },
+                "active": {
+                    "file": "player/infinity_active.svg",
+                    "fallback": "∞"
+                },
+                "pressed": {
+                    "file": "player/infinity_pressed.svg",
+                    "fallback": "∞"
+                },
+                "disabled": {
+                    "file": "player/infinity_disabled.svg",
+                    "fallback": "∞"
+                }
+            },
+            "scale": 0.85
+        },
+        "player.queue": {
+            "category": "player",
+            "states": {
+                "normal": {
+                    "file": "player/queue_normal.svg",
+                    "fallback": "≡"
+                },
+                "hover": {
+                    "file": "player/queue_hover.svg",
+                    "fallback": "≡"
+                },
+                "active": {
+                    "file": "player/queue_active.svg",
+                    "fallback": "≡"
+                },
+                "pressed": {
+                    "file": "player/queue_pressed.svg",
+                    "fallback": "≡"
+                },
+                "disabled": {
+                    "file": "player/queue_disabled.svg",
+                    "fallback": "≡"
+                }
+            },
+            "scale": 0.85
+        },
+        "player.volume": {
+            "category": "player",
+            "states": {
+                "normal": {
+                    "file": "player/volume_normal.svg",
+                    "fallback": "◖"
+                },
+                "hover": {
+                    "file": "player/volume_hover.svg",
+                    "fallback": "◖"
+                },
+                "active": {
+                    "file": "player/volume_active.svg",
+                    "fallback": "◖"
+                },
+                "pressed": {
+                    "file": "player/volume_pressed.svg",
+                    "fallback": "◖"
+                },
+                "disabled": {
+                    "file": "player/volume_disabled.svg",
+                    "fallback": "◖"
+                }
+            },
+            "scale": 0.85
+        },
+        "player.equalizer": {
+            "category": "player",
+            "states": {
+                "normal": {
+                    "file": "player/equalizer_normal.svg",
+                    "fallback": "EQ"
+                },
+                "hover": {
+                    "file": "player/equalizer_hover.svg",
+                    "fallback": "EQ"
+                },
+                "active": {
+                    "file": "player/equalizer_active.svg",
+                    "fallback": "EQ"
+                },
+                "pressed": {
+                    "file": "player/equalizer_pressed.svg",
+                    "fallback": "EQ"
+                },
+                "disabled": {
+                    "file": "player/equalizer_disabled.svg",
+                    "fallback": "EQ"
+                }
+            },
+            "scale": 0.85
+        },
+        "player.fullscreen": {
+            "category": "player",
+            "states": {
+                "normal": {
+                    "file": "player/fullscreen_normal.svg",
+                    "fallback": "⛶"
+                },
+                "hover": {
+                    "file": "player/fullscreen_hover.svg",
+                    "fallback": "⛶"
+                },
+                "active": {
+                    "file": "player/fullscreen_active.svg",
+                    "fallback": "⛶"
+                },
+                "pressed": {
+                    "file": "player/fullscreen_pressed.svg",
+                    "fallback": "⛶"
+                },
+                "disabled": {
+                    "file": "player/fullscreen_disabled.svg",
+                    "fallback": "⛶"
+                }
+            },
+            "scale": 0.85
+        },
+        "player.exit_fullscreen": {
+            "category": "player",
+            "states": {
+                "normal": {
+                    "file": "player/exit_fullscreen_normal.svg",
+                    "fallback": "⛶"
+                },
+                "hover": {
+                    "file": "player/exit_fullscreen_hover.svg",
+                    "fallback": "⛶"
+                },
+                "active": {
+                    "file": "player/exit_fullscreen_active.svg",
+                    "fallback": "⛶"
+                },
+                "pressed": {
+                    "file": "player/exit_fullscreen_pressed.svg",
+                    "fallback": "⛶"
+                },
+                "disabled": {
+                    "file": "player/exit_fullscreen_disabled.svg",
+                    "fallback": "⛶"
+                }
+            },
+            "scale": 0.85
+        },
+        "actions.favorite": {
+            "category": "actions",
+            "states": {
+                "normal": {
+                    "file": "actions/favorite_normal.svg",
+                    "fallback": "♡"
+                },
+                "hover": {
+                    "file": "actions/favorite_hover.svg",
+                    "fallback": "♡"
+                },
+                "active": {
+                    "file": "actions/favorite_active.svg",
+                    "fallback": "♥"
+                },
+                "pressed": {
+                    "file": "actions/favorite_pressed.svg",
+                    "fallback": "♡"
+                },
+                "disabled": {
+                    "file": "actions/favorite_disabled.svg",
+                    "fallback": "♡"
+                }
+            },
+            "scale": 0.85
+        },
+        "actions.dislike": {
+            "category": "actions",
+            "states": {
+                "normal": {"fallback": "↓"},
+                "hover": {"fallback": "↓"},
+                "active": {"fallback": "↓"},
+                "pressed": {"fallback": "↓"},
+                "disabled": {"fallback": "↓"}
+            },
+            "scale": 0.85
+        },
+        "actions.add_playlist": {
+            "category": "actions",
+            "states": {
+                "normal": {
+                    "file": "actions/add_playlist_normal.svg",
+                    "fallback": "+"
+                },
+                "hover": {
+                    "file": "actions/add_playlist_hover.svg",
+                    "fallback": "+"
+                },
+                "active": {
+                    "file": "actions/add_playlist_active.svg",
+                    "fallback": "+"
+                },
+                "pressed": {
+                    "file": "actions/add_playlist_pressed.svg",
+                    "fallback": "+"
+                },
+                "disabled": {
+                    "file": "actions/add_playlist_disabled.svg",
+                    "fallback": "+"
+                }
+            },
+            "scale": 0.85
+        },
+        "actions.add": {
+            "category": "actions",
+            "states": {
+                "normal": {
+                    "file": null,
+                    "fallback": "＋"
+                },
+                "hover": {
+                    "file": null,
+                    "fallback": "＋"
+                },
+                "active": {
+                    "file": null,
+                    "fallback": "＋"
+                },
+                "pressed": {
+                    "file": null,
+                    "fallback": "＋"
+                },
+                "disabled": {
+                    "file": null,
+                    "fallback": "＋"
+                }
+            },
+            "scale": 0.85
+        },
+        "actions.remove": {
+            "category": "actions",
+            "states": {
+                "normal": {
+                    "file": null,
+                    "fallback": "×"
+                },
+                "hover": {
+                    "file": null,
+                    "fallback": "×"
+                },
+                "active": {
+                    "file": null,
+                    "fallback": "×"
+                },
+                "pressed": {
+                    "file": null,
+                    "fallback": "×"
+                },
+                "disabled": {
+                    "file": null,
+                    "fallback": "×"
+                }
+            },
+            "scale": 0.85
+        },
+        "actions.close": {
+            "category": "actions",
+            "states": {
+                "normal": {
+                    "file": null,
+                    "fallback": "×"
+                },
+                "hover": {
+                    "file": null,
+                    "fallback": "×"
+                },
+                "active": {
+                    "file": null,
+                    "fallback": "×"
+                },
+                "pressed": {
+                    "file": null,
+                    "fallback": "×"
+                },
+                "disabled": {
+                    "file": null,
+                    "fallback": "×"
+                }
+            },
+            "scale": 0.85
+        },
+        "actions.back": {
+            "category": "actions",
+            "states": {
+                "normal": {
+                    "file": null,
+                    "fallback": "←"
+                },
+                "hover": {
+                    "file": null,
+                    "fallback": "←"
+                },
+                "active": {
+                    "file": null,
+                    "fallback": "←"
+                },
+                "pressed": {
+                    "file": null,
+                    "fallback": "←"
+                },
+                "disabled": {
+                    "file": null,
+                    "fallback": "←"
+                }
+            },
+            "scale": 0.85
+        },
+        "actions.search": {
+            "category": "actions",
+            "states": {
+                "normal": {
+                    "file": "search.svg",
+                    "fallback": "Busca"
+                }
+            },
+            "scale": 0.85
+        },
+        "actions.music_placeholder": {
+            "category": "actions",
+            "states": {
+                "normal": {
+                    "file": null,
+                    "fallback": "♫"
+                },
+                "hover": {
+                    "file": null,
+                    "fallback": "♫"
+                },
+                "active": {
+                    "file": null,
+                    "fallback": "♫"
+                },
+                "pressed": {
+                    "file": null,
+                    "fallback": "♫"
+                },
+                "disabled": {
+                    "file": null,
+                    "fallback": "♫"
+                }
+            },
+            "scale": 0.85
+        },
+        "actions.queue_pin": {
+            "category": "actions",
+            "states": {
+                "normal": {
+                    "file": null,
+                    "fallback": "⌁"
+                },
+                "hover": {
+                    "file": null,
+                    "fallback": "⌁"
+                },
+                "active": {
+                    "file": null,
+                    "fallback": "⌖"
+                },
+                "pressed": {
+                    "file": null,
+                    "fallback": "⌁"
+                },
+                "disabled": {
+                    "file": null,
+                    "fallback": "⌁"
+                }
+            },
+            "scale": 0.85
+        },
+        "actions.queue_unpin": {
+            "category": "actions",
+            "states": {
+                "normal": {
+                    "file": null,
+                    "fallback": "⌖"
+                },
+                "hover": {
+                    "file": null,
+                    "fallback": "⌖"
+                },
+                "active": {
+                    "file": null,
+                    "fallback": "⌁"
+                },
+                "pressed": {
+                    "file": null,
+                    "fallback": "⌖"
+                },
+                "disabled": {
+                    "file": null,
+                    "fallback": "⌖"
+                }
+            },
+            "scale": 0.85
+        },
+        "player.mini": {
+            "category": "player",
+            "states": {
+                "normal": {
+                    "file": "player/mini.svg",
+                    "fallback": "▣"
+                },
+                "hover": {
+                    "file": "player/mini.svg",
+                    "fallback": "▣"
+                },
+                "active": {
+                    "file": "player/mini.svg",
+                    "fallback": "▣"
+                },
+                "pressed": {
+                    "file": "player/mini.svg",
+                    "fallback": "▣"
+                },
+                "disabled": {
+                    "file": "player/mini.svg",
+                    "fallback": "▣"
+                }
+            },
+            "scale": 0.85
+        },
+        "navigation.favorites_title": {
+            "category": "navigation",
+            "states": {
+                "normal": {
+                    "file": "navigation/favorites_title.svg",
+                    "fallback": "★"
+                }
+            },
+            "scale": 0.85
+        },
+        "library.folder": {
+            "category": "library",
+            "states": {
+                "normal": {
+                    "file": "library/folder.svg",
+                    "fallback": "Pasta"
+                }
+            },
+            "scale": 0.85
+        },
+        "home_shortcuts.albums": {
+            "category": "home_shortcuts",
+            "states": {
+                "normal": {
+                    "file": "home_shortcuts/albums.svg",
+                    "fallback": "Álbuns"
+                }
+            },
+            "scale": 0.85
+        },
+        "home_shortcuts.artists": {
+            "category": "home_shortcuts",
+            "states": {
+                "normal": {
+                    "file": "home_shortcuts/artists.svg",
+                    "fallback": "Artistas"
+                }
+            },
+            "scale": 0.85
+        },
+        "home_shortcuts.library": {
+            "category": "home_shortcuts",
+            "states": {
+                "normal": {
+                    "file": "home_shortcuts/library.svg",
+                    "fallback": "Biblioteca"
+                }
+            },
+            "scale": 0.85
+        },
+        "home_shortcuts.playlists": {
+            "category": "home_shortcuts",
+            "states": {
+                "normal": {
+                    "file": "home_shortcuts/playlists.svg",
+                    "fallback": "Playlists"
+                }
+            },
+            "scale": 0.85
+        },
+        "brand.logo_horizontal": {
+            "category": "brand",
+            "states": {
+                "normal": {
+                    "file": "brand/logo_horizontal.svg",
+                    "fallback": "Serifa Music"
+                }
+            }
+        },
+        "brand.logo_square": {
+            "category": "brand",
+            "states": {
+                "normal": {
+                    "file": "brand/logo_square.svg",
+                    "fallback": "S"
+                }
+            }
+        },
+        "sidebar.collapse": {
+            "category": "navigation",
+            "states": {
+                "normal": {
+                    "file": "navigation/sidebar_collapse_normal.svg",
+                    "fallback": "‹"
+                },
+                "hover": {
+                    "file": "navigation/sidebar_collapse_hover.svg",
+                    "fallback": "‹"
+                },
+                "active": {
+                    "file": "navigation/sidebar_collapse_active.svg",
+                    "fallback": "‹"
+                },
+                "pressed": {
+                    "file": "navigation/sidebar_collapse_pressed.svg",
+                    "fallback": "‹"
+                },
+                "disabled": {
+                    "file": "navigation/sidebar_collapse_disabled.svg",
+                    "fallback": "‹"
+                }
+            },
+            "scale": 1.0
+        },
+        "sidebar.expand": {
+            "category": "navigation",
+            "states": {
+                "normal": {
+                    "file": "navigation/sidebar_expand_normal.svg",
+                    "fallback": "›"
+                },
+                "hover": {
+                    "file": "navigation/sidebar_expand_hover.svg",
+                    "fallback": "›"
+                },
+                "active": {
+                    "file": "navigation/sidebar_expand_active.svg",
+                    "fallback": "›"
+                },
+                "pressed": {
+                    "file": "navigation/sidebar_expand_pressed.svg",
+                    "fallback": "›"
+                },
+                "disabled": {
+                    "file": "navigation/sidebar_expand_disabled.svg",
+                    "fallback": "›"
+                }
+            },
+            "scale": 1.0
+        }
+    }
+}

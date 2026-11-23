@@ -1,0 +1,52 @@
+# ============================================================
+# PERSONALIZAÇÃO DA TELA DE ABERTURA
+# Edite os valores abaixo para mudar a apresentação do programa.
+# ============================================================
+
+[marca]
+# Nome exibido na tela de abertura.
+nome = "SERIFA MUSIC"
+
+[textos.pt_BR]
+# Textos usados quando o idioma do programa é português.
+slogan = "Sua música. Do seu jeito."
+status_inicial = "Preparando sua biblioteca..."
+status_pronto = "Tudo pronto!"
+
+[textos.en]
+# Textos usados quando o idioma do programa é inglês.
+slogan = "Your music. Your way."
+status_inicial = "Preparing your library..."
+status_pronto = "All ready!"
+
+[cores]
+# Cores em HEX. Exemplo: "#17151e".
+fundo = "#17151e"
+painel = "#211e2a"
+destaque = "#b58ae0"
+texto = "#f3edf9"
+texto_discreto = "#95899f"
+
+[janela]
+# Dimensões em pixels.
+largura = 800
+altura = 450
+
+# Tempo mínimo de exibição, em milissegundos.
+tempo_minimo_ms = 1800
+
+[imagem]
+# Imagem principal da tela de abertura.
+# Recomendado: PNG, 1360 x 760 pixels, proporção 16:9.
+# A imagem será ajustada sem distorção.
+usar_imagem = true
+arquivo = "customization/images/splash.png"
+
+[logotipo]
+# Logotipo independente da imagem principal.
+# Recomendado: PNG transparente, 512 x 512 pixels.
+# Ative com true para substituir a letra S pelo arquivo.
+usar_logotipo = false
+arquivo = "customization/logos/logo.png"
+largura = 100
+altura = 100

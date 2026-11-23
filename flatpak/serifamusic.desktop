@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Serifa Music
+Comment=Seu player de música
+Exec=serifamusic
+Icon=com.serifa.SerifaMusic
+Terminal=false
+Type=Application
+Categories=AudioVideo;Audio;Player;
+StartupNotify=true

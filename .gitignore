@@ -1,0 +1,57 @@
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Backups e arquivos temporários
+*.bak*
+*.backup*
+*_backup*
+*.before*
+*.antes*
+*.estado*
+*.seguranca*
+*.pre_*
+*.before_*
+*.before_restore
+*.antes_*
+*.estado_*
+*.seguranca_*
+*.debug_backup*
+*.hover_test*
+*.bezier_tilt_backup*
+*.equalizer_backup*
+*.fullscreen_backup*
+*.rollback_backup*
+*.single_canvas_backup*
+*.transition_render_backup*
+*.parallax_*_backup*
+*~
+*.old
+
+# Backups do projeto
+backups/
+
+# Diagnósticos
+heaptrack.*
+*.log
+
+# Flatpak: arquivos gerados durante compilação
+flatpak/build-dir/
+flatpak/build-debug-dir/
+flatpak/build-pycairo-dir/
+flatpak/.flatpak-builder/
+
+# Arquivos locais
+.env
+.env.*
+*.sqlite
+*.sqlite3
+*.db
+
+sincronizar_svgs.py

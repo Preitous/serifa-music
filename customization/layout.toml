@@ -1,0 +1,22 @@
+# ============================================================
+# DIMENSÕES GERAIS DA JANELA E ESPAÇAMENTOS
+# ============================================================
+
+[window]
+minimum_width = 1000
+minimum_height = 650
+initial_width = 1200
+initial_height = 760
+
+[spacing]
+tiny = 4
+small = 8
+medium = 12
+large = 20
+extra_large = 30
+
+[margins]
+main_horizontal = 24
+main_vertical = 20
+sidebar_horizontal = 20
+sidebar_vertical = 24

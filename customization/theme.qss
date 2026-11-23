@@ -1,0 +1,125 @@
+/*
+SERIFA MUSIC — TEMA PERSONALIZÁVEL
+==================================
+
+Este arquivo utiliza Qt Style Sheets (QSS).
+
+As regras abaixo são exemplos. Todas estão comentadas para preservar
+a aparência atual do aplicativo.
+
+Para ativar uma personalização:
+1. Remova os delimitadores /* e */ do bloco desejado.
+2. Altere as propriedades e cores.
+3. Salve o arquivo.
+4. Reinicie o Serifa Music.
+
+Cores devem utilizar o formato hexadecimal: #RRGGBB.
+Medidas são expressas em pixels.
+*/
+
+
+/* ==========================================
+   BOTÕES
+   ========================================== */
+
+/*
+QPushButton {
+    color: #F3EDF9;
+    background-color: #302A3B;
+    border: 1px solid #393243;
+    border-radius: 8px;
+    padding: 7px 12px;
+}
+
+QPushButton:hover {
+    background-color: #493E58;
+}
+
+QPushButton:pressed {
+    background-color: #211E2A;
+}
+*/
+
+
+/* ==========================================
+   CAMPOS DE TEXTO
+   ========================================== */
+
+/*
+QLineEdit {
+    color: #F3EDF9;
+    background-color: #211E2A;
+    border: 1px solid #393243;
+    border-radius: 8px;
+    padding: 8px 12px;
+}
+
+QLineEdit:focus {
+    border: 1px solid #8E6BB0;
+}
+*/
+
+
+/* ==========================================
+   MENUS
+   ========================================== */
+
+/*
+QMenu {
+    color: #F3EDF9;
+    background-color: #211E2A;
+    border: 1px solid #393243;
+    padding: 5px;
+}
+
+QMenu::item {
+    padding: 7px 24px;
+    border-radius: 5px;
+}
+
+QMenu::item:selected {
+    background-color: #493E58;
+}
+*/
+
+
+/* ==========================================
+   BARRAS DE ROLAGEM
+   ========================================== */
+
+QScrollBar:vertical {
+    background: #211e2a;
+    width: 7px;
+    border-radius: 3px;
+    margin: 2px;
+}
+
+QScrollBar::handle:vertical {
+    background: #59496b;
+    border-radius: 3px;
+    min-height: 28px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #80649e;
+}
+
+QScrollBar::add-line:vertical,
+QScrollBar::sub-line:vertical {
+    height: 0px;
+}
+
+
+/* ==========================================
+   DICAS FLUTUANTES
+   ========================================== */
+
+/*
+QToolTip {
+    color: #FFFFFF;
+    background-color: #302A3B;
+    border: 1px solid #51465F;
+    border-radius: 5px;
+    padding: 5px 8px;
+}
+*/

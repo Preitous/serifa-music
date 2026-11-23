@@ -1,0 +1,52 @@
+# ============================================================
+# TIPOGRAFIA
+# ============================================================
+# Os nomes das fontes devem corresponder a fontes instaladas.
+# Os tamanhos são expressos em pixels.
+
+[fonts]
+primary = "Inter"
+fallback = "Noto Sans"
+monospace = "Monospace"
+
+[sizes]
+tiny = 10
+small = 11
+body = 13
+medium = 14
+large = 17
+heading = 22
+display = 30
+
+[weights]
+regular = 400
+medium = 500
+semibold = 600
+bold = 700
+
+# Tamanhos específicos usados nos estilos da interface.
+# Altere os números em pixels para personalizar cada tamanho.
+[qss_sizes]
+px_10 = 10
+px_11 = 11
+px_12 = 12
+px_13 = 13
+px_14 = 14
+px_15 = 15
+px_16 = 16
+px_17 = 17
+px_18 = 18
+px_19 = 19
+px_20 = 20
+px_21 = 21
+px_22 = 22
+px_23 = 23
+px_24 = 24
+px_25 = 25
+px_27 = 27
+px_30 = 30
+px_32 = 32
+px_34 = 34
+px_48 = 48
+px_54 = 54
+px_76 = 76
