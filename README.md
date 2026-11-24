@@ -33,11 +33,57 @@ The project focuses on user experience, visual organization, and giving users co
 - PyGObject
 - D-Bus
 
+## Installation
+
+Serifa Music is distributed as a Flatpak application for Linux (x86_64).
+
+### Requirements
+
+- A Linux distribution with Flatpak support.
+- Internet connection for downloading the required runtimes.
+- Flathub remote configured.
+
+### Installing
+
+If Flathub is not configured on your system, add it first:
+
+```bash
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+```
+
+Download the latest `.flatpak` package from the [Releases](https://github.com/Preitous/serifa-music/releases) section.
+
+Install the downloaded package:
+
+```bash
+flatpak install --user ./SerifaMusic.flatpak
+```
+
+Flatpak automatically locates and installs the required runtimes from Flathub.
+
+### Launching
+
+```bash
+flatpak run com.serifa.SerifaMusic
+```
+
+You can also launch Serifa Music from your desktop application menu.
+
+### Uninstalling
+
+```bash
+flatpak uninstall --user com.serifa.SerifaMusic
+```
+
 ## Distribution
 
 The initial release of Serifa Music targets Linux, using the Flatpak format.
 
-Installation packages will be available in the [Releases](https://github.com/Preitous/serifa-music/releases) section of this repository.
+The application uses KDE Platform 6.11 and its required Qt/PySide environment.
+
+Flatpak allows Serifa Music to run across different Linux distributions without requiring users to manually install its Python dependencies.
+
+Installation packages are available in the [Releases](https://github.com/Preitous/serifa-music/releases) section of this repository.
 
 ## Customization
 
@@ -110,11 +156,57 @@ O projeto tem como foco a experiência de uso, a organização visual e o contro
 - PyGObject
 - D-Bus
 
+## Instalação
+
+Serifa Music é distribuído como aplicativo Flatpak para Linux (arquitetura x86_64).
+
+### Requisitos
+
+- Uma distribuição Linux com suporte a Flatpak.
+- Conexão com a internet para baixar os runtimes necessários.
+- Repositório Flathub configurado.
+
+### Instalando
+
+Caso o Flathub ainda não esteja configurado no sistema, adicione-o:
+
+```bash
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+```
+
+Baixe o pacote `.flatpak` mais recente na seção [Releases](https://github.com/Preitous/serifa-music/releases).
+
+Instale o pacote baixado:
+
+```bash
+flatpak install --user ./SerifaMusic.flatpak
+```
+
+O Flatpak identifica e instala automaticamente os runtimes necessários através do Flathub.
+
+### Iniciando o aplicativo
+
+```bash
+flatpak run com.serifa.SerifaMusic
+```
+
+Você também pode iniciar o Serifa Music pelo menu de aplicativos do ambiente gráfico.
+
+### Desinstalando
+
+```bash
+flatpak uninstall --user com.serifa.SerifaMusic
+```
+
 ## Distribuição
 
-O lançamento inicial do Serifa Music será voltado ao Linux, utilizando o formato Flatpak.
+O lançamento inicial do Serifa Music é voltado ao Linux, utilizando o formato Flatpak.
 
-Os pacotes de instalação serão disponibilizados na seção [Releases](https://github.com/Preitous/serifa-music/releases) deste repositório.
+O aplicativo utiliza o KDE Platform 6.11 e seu ambiente necessário para Qt/PySide.
+
+O Flatpak permite executar o Serifa Music em diferentes distribuições Linux sem exigir que o usuário instale manualmente suas dependências Python.
+
+Os pacotes de instalação estão disponíveis na seção [Releases](https://github.com/Preitous/serifa-music/releases) deste repositório.
 
 ## Personalização
 

@@ -55,3 +55,6 @@ flatpak/.flatpak-builder/
 *.db
 
 sincronizar_svgs.py
+
+# Repositório local de exportação Flatpak
+flatpak/repo/
